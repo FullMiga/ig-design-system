@@ -24,6 +24,13 @@ const config: StorybookConfig = {
   "framework": {
     "name": getAbsolutePath('@storybook/react-vite'),
     "options": {}
+  },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'DEVELOPMENT') {
+      config.base = '/ig-design-system/'
+    }
+
+    return config
   }
 };
 export default config;

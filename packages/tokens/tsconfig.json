@@ -1,4 +1,4 @@
 {
-  "extends": "@ignite-ui/ts-config/base.json",
+  "extends": "@isz-dsystem/ts-config/base.json",
   "include": ["src"],
 }

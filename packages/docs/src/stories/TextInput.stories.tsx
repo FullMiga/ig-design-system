@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
-import type { TextInputProps } from "@ignite-ui/react";
-import { Box, Text, TextInput } from "@ignite-ui/react";
+import type { TextInputProps } from "@isz-dsystem/react";
+import { Box, Text, TextInput } from "@isz-dsystem/react";
 
 const meta = {
   title: "Form/Text Input",

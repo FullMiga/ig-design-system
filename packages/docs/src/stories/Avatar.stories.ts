@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
-import type { AvatarProps } from '@ignite-ui/react';
-import { Avatar } from '@ignite-ui/react';
+import type { AvatarProps } from '@isz-dsystem/react';
+import { Avatar } from '@isz-dsystem/react';
 
 
 const meta = {

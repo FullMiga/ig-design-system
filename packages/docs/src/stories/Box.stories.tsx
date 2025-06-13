@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
-import { Box, Text } from "@ignite-ui/react";
+import { Box, Text } from "@isz-dsystem/react";
 
 const meta = {
   title: "Surfeces/Box",

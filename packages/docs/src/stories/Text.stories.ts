@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
-import { Text, } from '@ignite-ui/react';
+import { Text, } from '@isz-dsystem/react';
 
 
 const meta = {

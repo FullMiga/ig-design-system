@@ -1,4 +1,4 @@
-import { colors } from "@ignite-ui/tokens";
+import { colors } from "@isz-dsystem/tokens";
 
 export function ColorsGrid() {
   return Object.entries(colors).map(([key, color]) => {

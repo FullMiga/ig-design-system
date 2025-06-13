@@ -6,9 +6,13 @@
   "packageManager": "npm@10.9.2",
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=@isz-dsystem/docs && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.29.4",
     "turbo": "^2.5.4"
   }
 }

@@ -16,6 +16,9 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+        env:
+          TURBO_TOKEN: 17tjkuXzKVhSPnXbiZWfybBY
+          TURBO_TEAM: fullmigas-projects-68ef0098
 
       - name: Deploy storybook
         working-directory: ./packages/docs

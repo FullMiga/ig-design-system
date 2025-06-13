@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
-import type { TextAreaProps } from "@ignite-ui/react";
-import { Box, Text, TextArea } from "@ignite-ui/react";
+import type { TextAreaProps } from "@isz-dsystem/react";
+import { Box, Text, TextArea } from "@isz-dsystem/react";
 
 const meta = {
   title: "Form/Textarea",

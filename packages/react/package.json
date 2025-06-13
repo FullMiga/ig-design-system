@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/react",
-  "version": "1.0.0",
+  "name": "@isz-dsystem/react",
+  "version": "2.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -14,9 +14,9 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@isz-dsystem/eslint-config": "*",
+    "@isz-dsystem/tokens": "*",
+    "@isz-dsystem/ts-config": "*",
     "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.5",
     "react": "^19.1.0",

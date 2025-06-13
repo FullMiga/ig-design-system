@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
-import type { ButtonProps } from "@ignite-ui/react";
-import { Button } from "@ignite-ui/react";
+import type { ButtonProps } from "@isz-dsystem/react";
+import { Button } from "@isz-dsystem/react";
 import { ArrowRight } from "lucide-react";
 
 const meta = {

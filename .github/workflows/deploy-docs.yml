@@ -19,7 +19,7 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: 17tjkuXzKVhSPnXbiZWfybBY
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: fullmigas-projects-68ef0098
 
       - name: Deploy storybook
